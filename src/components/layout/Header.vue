@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed h-16 w-full from-blue to-light-blue bg-gradient-to-b flex items-center shadow-black shadow-md">
+  <div class="fixed h-16 w-full from-blue to-light-blue bg-gradient-to-b flex items-center shadow-black">
       <nav class="flex flex-row w-full justify-between mx-20">
           <div>
               <img src="../../public/logo.svg" alt="logo" class="h-10">
