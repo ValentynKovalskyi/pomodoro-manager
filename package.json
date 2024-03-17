@@ -16,6 +16,7 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "vue": "^3.4.21",
+    "vue-cookies": "^1.8.3",
     "vue-i18n": "^9.10.2"
   },
   "devDependencies": {

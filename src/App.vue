@@ -1,10 +1,10 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-  <h1 clas>Hello World!</h1>
+  <Main />
 </template>
+
+<script setup>
+import Main from "@/pages/Main.vue";
+</script>
 
 <style scoped>
 
