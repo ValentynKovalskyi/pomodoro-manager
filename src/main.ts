@@ -1,11 +1,16 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import './assets/output.css';
 import App from './App.vue'
+import pinia from "@/plugins/pinia";
+import i18n from "@/plugins/i18n";
+import VueCookies from "vue-cookies";
 
 const app = createApp(App)
 
-app.use(createPinia())
+VueCookies.install(app)
 
-app.mount('#app')
+app
+  .use(pinia)
+  .use(i18n)
+  .use(VueCookies)
+  .mount('#app')
